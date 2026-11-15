@@ -56,11 +56,14 @@ random.seed(39)
 np.random.seed(39)
 
 
+
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_2982.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_plus_1738.csv"),
+    Path("/data/loto7_4720_k91.csv"),
+    Path("/data/loto7_4720_k91_loto_2982.csv"),
+    Path("/data/loto7_4720_k91_loto_plus_1738.csv"),
 )
+
+
 
 N = 39
 K = 7
@@ -1328,7 +1331,7 @@ Ucenje modela za test.
 Test NLL: 16.549902
 Zavrsno ucenje: svi istorijski prelazi.
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [10, 11, 15, 24, 27, 33, 34]
+NEXT: [10, x, 15, y, 27, z, 34]
 
 CSV: loto7_4720_k91_loto_2982.csv
 Ucenje zajednicke raspodele: reg=10.
@@ -1341,7 +1344,7 @@ Ucenje modela za test.
 Test NLL: 16.549387
 Zavrsno ucenje: svi istorijski prelazi.
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [8, 15, 16, 22, 23, 28, 37]
+NEXT: [8, x, 16, y, 23, z, 37]
 
 CSV: loto7_4720_k91_loto_plus_1738.csv
 Ucenje zajednicke raspodele: reg=10.
@@ -1354,7 +1357,7 @@ Ucenje modela za test.
 Test NLL: 16.544460
 Zavrsno ucenje: svi istorijski prelazi.
 Pretraga NEXT: svih 15380937 kombinacija.
-NEXT: [7, 8, 11, 23, 27, 34, 37]
+NEXT: [7, x, 11, y, 27, z, 37]
 """
 
 
